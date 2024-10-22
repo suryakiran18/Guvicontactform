@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GUVI |Learn to code in your native language</title>
+    <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/png" href="images/footerguvi.jpg">
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+        
+</head>
+<body>
+    <img src="images/gif.gif" alt="GIF" class="floating-gif">
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="logo">
+                <img src="images/guvi-logo.png" alt="GUVI Logo">
+            </div>
+            <ul class="nav-links">
+                <li class="dropdown">
+                    <a href="#">Courses</a>
+                </li>
+                <li class="dropdown">
+                    <a href="#">LIVE Classes <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" class="arrow-icon">
+                        <path d="m6 9 6 6 6-6"></path>
+                    </svg></a>
+                    <div class="dropdown-content">
+                        <div class="internaldrop">
+                        <p class="section-header"><strong>ZEN CLASS</strong> <span class="live-tag">live online classes</span></p>
+                        <p>LIVE Online Intensive Program + Placement Guidance</p></div>
+                        
+                        <p class="section-header"><strong>IIT-M Pravartak Certified Full Stack Development Program (FSD)</strong></p>
+                        <p>Learn Javascript, HTML, CSS, Java, Data Structure, MongoDB & more</p>
+                        
+                        <p class="section-header"><strong>IIT-M Pravartak Certified Data Science Program</strong></p>
+                        <p>Learn Python, Machine Learning, NLP, Tableau, PowerBI & more</p>
+                        
+                        <p class="section-header"><strong>Automation & Testing Program</strong></p>
+                        <p>Learn Selenium, Python, Java, Jenkins, Jmeter, API Testing & more</p>
+                        
+                        <a href="#" class="explore-link">Explore More Programs</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Practice<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" class="arrow-icon">
+                        <path d="m6 9 6 6 6-6"></path>
+                    </svg></a>
+                    <div class="dropdown-content">
+                        <p class="section-header"><strong>Codekata</strong></p>
+                        <p>Sharpen your coding skills, prepare for interviews</p>
+
+                        <p class="section-header"><strong>Webkata</strong></p>
+                        <p>Build basic Frontend and Backend development skills</p>
+
+                        <p class="section-header"><strong>Debugging</strong></p>
+                        <p>A series of programs curated by Industry Experts</p>
+
+                        <p class="section-header"><strong>IDE - Online Compiler</strong></p>
+                        <p>Run & test your code in any programming language</p>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Resources<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" class="arrow-icon">
+                        <path d="m6 9 6 6 6-6"></path>
+                    </svg></a>
+                    <div class="dropdown-content">
+                        <p class="section-header"><strong>Learn Hub</strong></p>
+                        <p><strong>Rewards</strong></p>
+                        <p><strong>Referral</strong></p>
+                        <p><strong>Forum Support</strong></p>
+                        <p><strong>Blogs</strong></p>
+                        <p><strong>App Download</strong></p>
+                        <p><strong>Become an Affiliate</strong></p>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Our Solutions<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" class="arrow-icon">
+                        <path d="m6 9 6 6 6-6"></path>
+                    </svg></a>
+                    <div class="dropdown-content">
+                        <p class="section-header"><strong>HackerKid</strong></p>
+                        <p>Coding classes platform for K-12 children</p>
+                        <p class="section-header"><strong>GUVI for Corporates</strong></p>
+                        <p>Meet your Hiring & Training Needs</p>
+                        <p class="section-header"><strong>Placement Preparation</strong></p>
+                        <p>Ace Up your Aptitude</p>
+                    </div>
+                </li>
+            </ul>
+            <div class="question-mark">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#707070" viewBox="0 0 24 24">
+                    <path d="M9 16h2v-2H9zm1-16C4.48 0 0 4.48 0 10s4.48 10 10 10 10-4.48 10-10S15.52 0 10 0m0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8m0-14C7.79 4 6 5.79 6 8h2c0-1.1.9-2 2-2s2 .9 2 2c0 2-3 1.75-3 5h2c0-2.25 3-2.5 3-5 0-2.21-1.79-4-4-4"></path>
+                </svg>
+            </div>
+            
+
+            <div class="profile-dropdown">
+                <a href="#">
+                    <img src="images/profile.jpeg" alt="Profile" class="profile-img">
+                </a>
+                
+                <div class="profile-content">
+                    <p>Surya kiran</p>
+                    <p>chintalapudisurya78@gmail.com</p>
+                    <a href="#">My Profile</a>
+                    <a href="#">Change Password</a>
+                    <a href="#">Sign out</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="contact-info">
+            <h2>Contact Us</h2>
+            <p style="margin-left: 150px;margin-bottom: 20px;border-bottom: 1px solid #ccc;padding-bottom: 20px;">Let us know your queries, feedbacks, and enquiries. We are here to support you 24/7.</p>
+            <div class="info-item">
+                <img src="images/phone.webp" alt="Phone" class="icon">
+                <span>Give us a call</span>
+                
+                <p>
+                    +91 9736097320</p>
+            </div>
+            <div class="info-item">
+                <img src="images/mailbox.webp" alt="Email" class="icon">
+                <span>Write to us</span>
+                <p>cs@guvi.in</p>
+            </div>
+            <div class="info-item">
+                <img src="images/address.webp" alt="Location" class="icon" style="width: 30px;;">
+                <span >Visit us in Chennai @</span>
+                <p>IITM Research park - phase 2, module #9, 3rd floor, D block, Kanagam Rd, Tharamani, Chennai, Tamil Nadu 600113</p>
+            </div>
+            <div class="info-item">
+                <span style="margin-left: 95px;">Visit us in Noida @</span>
+                <p>A11, HCL Corporation Pvt. Ltd, Block A, Sector 3, Noida, Uttar Pradesh 201307</p>
+            </div>
+        </div>
+        <div class="contact-form">
+            
+            <h2> <span style="color:black" >Say  </span>Hello!</h2>
+            <p>Feel free to stop by and say hi!</p>
+            
+            <form id="contactForm" action="#">
+                <label for="name">Name <span style="color:rgb(239, 68, 68)" >*</span></label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">E-mail id<span style="color:rgb(239, 68, 68)" >*</span></label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="contact">Contact Number <span style="color:rgb(239, 68, 68)" >*</span></label>
+                <input type="tel" id="contactNumber" name="contactNumber" required>
+                
+                <label for="subject">Subject <span style="color:rgb(239, 68, 68)" >*</span></label>
+                <input type="text" id="subject" name="subject" required>
+                
+                <label for="message">Message <span style="color:rgb(239, 68, 68)" >*</span></label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+            <div id="responseMessage"></div>
+        </div>
+    </div>
+   
+
+        <footer class="footer">
+            <div class="footer-container">
+                <!-- Zen Class -->
+                <div class="footer-column">
+                    <h3>Zen Class<span class="live-tag">  Live classes</span></h3>
+                    <ul>
+                        <li><a href="#">Full Stack Development</a></li>
+                        <li><a href="#">Automation & Testing</a></li>
+                        <li><a href="#">Data Science</a></li>
+                        <li><a href="#">UI/UX</a></li>
+                        <li><a href="#">DevOps</a></li>
+                        <li><a href="#">Data Engineering</a></li>
+                        <li><a href="#">Business Analytics with Digital Marketing</a></li>
+                        <li><a href="#">All Programs</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Popular Courses -->
+                <div class="footer-column">
+                    <h3>Popular Courses</h3>
+                    <ul>
+                        <li><a href="#">Python - IITM Pravartak Certified</a></li>
+                        <li><a href="#">Java</a></li>
+                        <li><a href="#">Mobile Hacking</a></li>
+                        <li><a href="#">C Programming</a></li>
+                        <li><a href="#">AWS</a></li>
+                        <li><a href="#">Angular</a></li>
+                        <li><a href="#">Dark Web</a></li>
+                        <li><a href="#">All Courses</a></li>
+                    </ul>
+                </div>
+        
+                <!-- Self-Paced and Practice Platforms -->
+                <div class="footer-column">
+                    <h3>Self-Paced Courses</h3>
+                    <ul>
+                        <li><a href="#">Premium Pass</a></li>
+                        <li><a href="#">Courses Library</a></li>
+                        <li><a href="#">Free Library</a></li>
+                        <li><a href="#">Combos</a></li>
+                    </ul>
+        
+                    <h3>Practice Platforms</h3>
+                    <ul>
+                        <li><a href="#">Codekata</a></li>
+                <li><a href="#">Webkata</a></li>
+                <li><a href="#">Debugging</a></li>
+                <li><a href="#">IDE</a></li>
+                    </ul>
+                </div>
+        
+                <!-- Products and Resources -->
+                <div class="footer-column">
+                    <h3>Products</h3>
+                    <ul>
+                        <li><a href="#">HackerKid</a></li>
+                        <li><a href="#">Placement Preparation</a></li>
+                        <li><a href="#">GUVI for Corporates</a></li>
+                    </ul>
+        
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="#">Learn Hub</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Web Stories</a></li>
+                        <li><a href="#">Forum</a></li>
+                        <li><a href="#">Rewards</a></li>
+                        <li><a href="#">Refer a friend</a></li>
+                        <li><a href="#">Become an Affiliate</a></li>
+                    </ul>
+                </div>
+        
+                <!-- Company Information -->
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#">Refund Policy</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">About Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        
+            <hr class="hr-line">
+            <div class="footer-brief">
+                <div class="footer-logo-container">
+                    <a href="/">
+                        <img src="images/footerguvi.jpg" alt="guvi-logo" width="130" height="56">
+                    </a>
+                    <p>GUVI is an IIT-M &amp; IIM-A incubated Ed-tech company that focuses on providing personalized learning solutions for its learners right from online learning, upskilling &amp; recruitment opportunities in world-class quality. And, bestow tech-skills with the comfort of your native language.</p>
+                </div>
+                <div class="social-icons-container">
+                    <div class="social-icons">
+                        <p>Follow us on</p>
+                        <a href="https://www.facebook.com/guviofficial/" target="_blank" aria-label="Facebook">
+                            <img src="images/facebook.jpg" alt="facebook" width="120" height="120">
+                        </a>
+                        <a href="https://www.instagram.com/guviofficial/?hl=en" target="_blank" aria-label="Instagram">
+                            <img src="images/insta.jpg" alt="instagram" width="119" height="120">
+                        </a>
+                        <a href="https://www.linkedin.com/company/guviofficial/mycompany/verification/" target="_blank" aria-label="LinkedIn">
+                            <img src="images/linkedin.jpg" alt="linkedin" width="121" height="120">
+                        </a>
+                        <a href="https://twitter.com/guviofficial" target="_blank" aria-label="Twitter">
+                            <img src="images/X.jpg" alt="twitter" width="125" height="120">
+                        </a>
+                        <a href="https://www.t.me/s/guvigeek" target="_blank" aria-label="Telegram">
+                            <img src="images/telegram.jpg" alt="telegram" width="119" height="120">
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCduIoIMfD8tT3KoU0-zBRgQ" target="_blank" aria-label="Youtube">
+                            <img src="images/yt.jpg" alt="youtube" width="121" height="120">
+                        </a>
+                    </div>
+                </div>
+                <div class="app-buttons">
+                    <a href="/referral/" class="refer-button" target="_blank">Refer &amp; Earn</a>
+                    <a href="https://play.google.com/store/apps/details?id=com.guviapp&amp;hl=en_IN&amp;gl=US" target="_blank">
+                        <img src="images/googleplay.jpg" alt="play store" width="468" height="145">
+                    </a>
+                </div>
+            </div>
+            <hr class="hr-line">
+            <div class="footer-bottom">
+                <a href="/terms-of-service/" aria-label="terms and conditions">Terms and Conditions</a>
+                <a href="/privacy-policy/" aria-label="privacy policy">Privacy Policy</a>
+                <p>&copy; GUVI Geeks Network Pvt. Ltd.</p>
+            </div>
+            
+        </footer>
+        <script src="dist/form.js"></script>
+        <script>
+
+            document.addEventListener("DOMContentLoaded", function() {
+                const form = document.getElementById('contactForm');
+                const responseMessage = document.getElementById('responseMessage');
+
+                form.addEventListener('submit', async (event) => {
+                    event.preventDefault();
+
+                    const name = document.getElementById('name').value;
+                    const email = document.getElementById('email').value;
+                    const contactNumber = document.getElementById('contactNumber').value;
+                    const subject = document.getElementById('subject').value;
+                    const message = document.getElementById('message').value;
+
+                    if (!validateForm(name, email, contactNumber, subject, message)) {
+                        responseMessage.innerText = "Please fill in all fields correctly.";
+                        return;
+                    }
+
+                    const formData = { name, email, contactNumber, subject, message };
+
+                    try {
+                        const res = await axios.post('https://6715ddc033bc2bfe40bb5b6d.mockapi.io/formsubmissions', formData);
+                        if (res.status === 201) {
+                            responseMessage.innerText = "Form Submitted Successfully!";
+                            form.reset();
+                        }
+                    } catch (error) {
+                        console.error('Submission Error:', error);
+                        responseMessage.innerText = "Submission Failed. Please try again.";
+                    }
+                });
+
+                function validateForm(name, email, contactNumber, subject, message) {
+                    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                    return name !== '' && emailRegex.test(email) && contactNumber !== '' && subject !== '' && message !== '';
+                }
+            });
+        </script>
+
+</body>
+</html>
